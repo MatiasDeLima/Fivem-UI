@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/images/bg-image.png" alt="" class="container__bg">
+
+        <!-- menu lateral -->
+        <div class="dashboard__menu">
+            <ul class="menu__list">
+                <div class="menu__icon menu-active">
+                    <i class="ri-bank-line"></i>
+                </div>
+    
+                <div class="menu__icon">
+                    <i class="ri-home-smile-line"></i>
+                </div>
+    
+                <div class="menu__icon">
+                    <i class="ri-money-dollar-box-line"></i>
+                </div>
+            </ul>
+        </div>
+
+        <div class="dashboard__content">
+            <!-- header -->
+            <div class="header">
+                <div class="header__buttons">
+                    <div class="deposit__button">
+                        <div class="button__flex">
+                            <div class="button__icon">
+                                <i class="ri-arrow-down-fill"></i>
+                            </div>
+
+                            <div class="button__data">
+                                <h4 class="button__title">Deposito</h4>
+                                <span class="button__description">Deposite qualquer valor!⚡</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transfer__button">
+                        <div class="button__flex">
+                            <div class="button__icon red-color">
+                                <i class="ri-arrow-up-fill"></i>
+                            </div>
+
+                            <div class="button__data">
+                                <h4 class="button__title">Transferir</h4>
+                                <span class="button__description red-color-text">Transfira qualquer valor!⚡</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="close__button">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- content 1 -->
+            <section class="content">
+                <div class="saldo__card card">
+                    <div class="saldo__circle"></div>
+
+                    <div class="card__flex">
+                        <div class="saldo__icon">
+                            <i class="ri-money-dollar-circle-line"></i>
+                        </div>
+
+                        <h4 class="saldo__title">Saldo atual</h4>
+                    </div>
+
+                    <h2 class="saldo__value">R$1232,89</h2>
+                </div>
+
+                <div class="sacar__card card">
+                    <div class="saldo__circle color__yellow"></div>
+
+                    <div class="card__flex">
+                        <div class="saldo__icon">
+                            <i class="ri-money-dollar-circle-line"></i>
+                        </div>
+
+                        <h4 class="saldo__title">Sacar dinheiro</h4>
+                    </div>
+
+                    <div class="sacar__bottom">
+                        <input type="text" class="sacar__input" placeholder="Valor a sacar...">
+                        <button class="button sacar__button">Sacar</button>
+                    </div>
+                </div>
+
+                <div class="movimenta__card card">
+                    <h3 class="movimenta__title">Movimentações</h3>
+
+                    <div class="card__content">
+                        <div class="movimenta__item">
+                            <div class="movimenta__circle"></div>
+
+                            <div class="movimenta__flex">
+                                <i class="ri-arrow-down-fill"></i>
+                                <div class="line"></div>
+
+                                <div class="movimenta__data">
+                                    <span>21.12.2023</span>
+                                    <h5 class="movimenta__title">Deposito</h5>
+                                </div>
+                            </div>
+
+                            <h4><span class="text-accent">+</span>R$1200,00</h4>
+                        </div>
+
+                        <div class="movimenta__item">
+                            <div class="movimenta__circle"></div>
+
+                            <div class="movimenta__flex">
+                                <i class="ri-arrow-down-fill"></i>
+                                <div class="line"></div>
+
+                                <div class="movimenta__data">
+                                    <span>21.12.2023</span>
+                                    <h5 class="movimenta__title">Deposito</h5>
+                                </div>
+                            </div>
+
+                            <h4><span class="text-accent">+</span>R$1200,00</h4>
+                        </div>
+
+                        <div class="movimenta__item">
+                            <div class="movimenta__circle"></div>
+
+                            <div class="movimenta__flex">
+                                <i class="ri-arrow-down-fill"></i>
+                                <div class="line"></div>
+
+                                <div class="movimenta__data">
+                                    <span>21.12.2023</span>
+                                    <h5 class="movimenta__title">Deposito</h5>
+                                </div>
+                            </div>
+
+                            <h4><span class="text-accent">+</span>R$1200,00</h4>
+                        </div>
+
+                        <div class="movimenta__item">
+                            <div class="movimenta__circle"></div>
+
+                            <div class="movimenta__flex">
+                                <i class="ri-arrow-down-fill"></i>
+                                <div class="line"></div>
+
+                                <div class="movimenta__data">
+                                    <span>21.12.2023</span>
+                                    <h5 class="movimenta__title">Deposito</h5>
+                                </div>
+                            </div>
+
+                            <h4><span class="text-accent">+</span>R$1200,00</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner__card card">
+                    <img src="./assets/images/banner-image-1.png" alt="" class="banner__image">
+                    <div class="banner__circle"></div>
+                    <div class="banner__circle-small"></div>
+                    <div class="banner__data">
+                        <span>Entre com valores!</span>
+
+                        <h2 class="banner__title">
+                            Adicione Mais.
+                        </h2>
+
+                        <p class="banner__description">
+                            It is a long established fact that a reader will be distracted by the 
+                            readable content of a page when looking at its layout.
+                        </p>
+
+                        <button class="button banner-button">Adicionar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
