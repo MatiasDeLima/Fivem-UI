@@ -226,15 +226,27 @@ button {
 }
 
 .red-color {
-  background-color: var(--red-color);
+  background-color: var(--red-color) !important;
+}
+
+.movimenta__item-red::after {
+    background-color: var(--red-color) !important;
 }
 
 .red-color-text {
-  color: var(--red-color);
+  color: var(--red-color) !important;
 }
 
 .yellow-color {
   background-color: var(--yellow-color);
+}
+
+.movimenta__line {
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    background-color: var(--green-color-alt);
 }
 
 .sacar__card::after {
@@ -388,15 +400,6 @@ button {
   border-radius: 0.5rem;
   margin-top: 1.25rem;
   margin-right: 1rem;
-}
-
-.movimenta__item::after {
-  position: absolute;
-  content: "";
-  height: 40px;
-  width: 2px;
-  background-color: var(--green-color-alt);
-  left: 0;
 }
 
 .movimenta__flex {
