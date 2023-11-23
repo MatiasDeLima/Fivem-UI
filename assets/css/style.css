@@ -304,6 +304,10 @@ button {
   column-gap: 1rem;
 }
 
+.sacar__card {
+    color: var(--white-color);
+}
+
 .saldo__icon {
   background: var(--container-color);
   display: grid;
